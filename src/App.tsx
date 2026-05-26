@@ -44,6 +44,7 @@ import CommissionSettings from "./pages/admin/CommissionSettings";
 function App() {
   return (
     <HashRouter>
+      <ScrollToTop />
       <Routes>
         {/* Auth Route Segment */}
         <Route element={<AuthLayout />}>
